@@ -1,0 +1,55 @@
+.formulario {
+  background-image: url("../img/dindin-imagens/ilustra-contato.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 444px 444px;
+  width: 1141px;
+  margin: 105px 163px 101px 136px;
+}
+
+.campo-formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 496px;
+  height: 419px;
+  border: none;
+}
+
+.titulo-formulario {
+  color: #ff4081;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 44px;
+}
+
+input,
+textarea {
+  border: 1px solid;
+  border-radius: 7px;
+  width: 493px;
+  padding: 5px 22.13px;
+  font-family: "Nunito";
+  font-size: 16px;
+}
+
+input {
+  height: 32px;
+}
+
+textarea {
+  height: 193px;
+  resize: none;
+}
+
+.botao-enviar {
+  background: #ff4081;
+  color: white;
+  width: 108px;
+  height: 32px;
+  border-radius: 50px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 32px;
+  padding: 0;
+}

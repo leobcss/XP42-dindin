@@ -1,0 +1,278 @@
+/* SEÇÃO BANNER */
+.banner {
+  width: 1028px;
+  height: 521px;
+  background-image: url("../img/dindin-imagens/ilustra-banner.png");
+  background-repeat: no-repeat;
+  background-size: 501px 511px;
+  background-position: right;
+  margin: 125px 206px 66px 206px;
+}
+
+.banner-esquerda {
+  width: 488px;
+  height: 386px;
+  /* margin: 125px 746px auto 206px; */
+}
+
+.titulo-banner {
+  color: #ff4081;
+  font-size: 60px;
+  font-weight: 700;
+  width: 488px;
+  height: 216px;
+  margin-bottom: 19px;
+}
+
+.texto-banner {
+  color: #555555;
+  width: 462px;
+  height: 62px;
+  font-size: 27px;
+  margin-bottom: 38px;
+}
+
+.botao-saber-mais {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  width: 268px;
+  height: 51px;
+  text-align: center;
+}
+
+.botao-saber-mais a {
+  color: #ff4081;
+  line-height: 45px;
+}
+
+/* SEÇÂO CURSO */
+
+.secao-curso {
+  background: #f6f6f6;
+  /* align-items: center; */
+}
+
+.curso {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 504px;
+  margin-top: 109px;
+  margin-bottom: 117px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.curso-1 {
+  width: 344px;
+  background-image: url("../img/dindin-imagens/ilustra-poupando.png");
+  background-size: 288px 270px;
+  margin-left: 128px;
+}
+
+.curso-2 {
+  width: 293px;
+  background-image: url("../img/dindin-imagens/ilustra-investimento.png");
+  background-size: 238px 270px;
+}
+
+.curso-3 {
+  width: 304px;
+  background-image: url("../img/dindin-imagens/ilustra-independencia.png");
+  background-size: 187px 270px;
+  margin-right: 129px;
+}
+
+.curso-embaixo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 100%;
+  transform: translateY(-100%);
+}
+
+.titulo-curso {
+  font-size: 25px;
+  font-weight: 700;
+  color: #ff4081;
+  margin-bottom: 23px;
+}
+
+.descricao-curso {
+  font-size: 17px;
+  font-weight: 300;
+  width: 293px;
+  height: 60px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.botao-curso {
+  background: #ff4081;
+  color: white;
+  width: 233px;
+  height: 51px;
+  border-radius: 62px;
+  text-align: center;
+}
+
+.botao-curso a {
+  line-height: 51px;
+}
+
+/* SEÇÂO DEPOIMENTOS */
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.conteudo-depoimentos {
+  margin: 119px 225px 155px 128px;
+  width: 1087px;
+  height: 427px;
+}
+
+.titulo-depoimentos {
+  color: #009688;
+  font-weight: 700;
+  font-size: 37px;
+  font-family: "Nunito", "Ubuntu";
+  margin-top: 119px;
+  margin-bottom: 78px;
+}
+
+.depoimento {
+  display: flex;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+
+.depoimento-1,
+.depoimento-2 {
+  width: 495px;
+  height: 104px;
+  float: left;
+  margin-bottom: 86px;
+}
+
+.depoimento-1 {
+  background-image: url("../img/dindin-imagens/icon-wally.png");
+}
+.depoimento-2 {
+  background-image: url("../img/dindin-imagens/icon-jaden.png");
+  margin-left: 97px;
+}
+.depoimento-3 {
+  width: 490px;
+  height: 109px;
+  background-image: url("../img/dindin-imagens/icon-whoopi.png");
+  float: left;
+}
+.depoimento-4 {
+  width: 489px;
+  height: 108px;
+  background-image: url("../img/dindin-imagens/icon-jane.png");
+  margin-left: 97px;
+  float: left;
+}
+
+.depoimento-direita {
+  width: 363px;
+  height: 104px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 100%;
+  transform: translateX(-100%);
+}
+
+.texto-depoimento,
+.autor-depoimento {
+  font-size: 18px;
+  font-family: "Nunito", "Ubuntu";
+}
+
+.texto-depoimento {
+  font-weight: 300;
+  margin-bottom: 10.31px;
+}
+
+.autor-depoimento {
+  font-weight: 400;
+}
+
+/* SEÇÂO DEPOIMENTOS */
+
+.secao-post {
+  background-color: #f6f6f6;
+  display: flex;
+}
+
+.titulo-posts {
+  display: flex;
+  font-size: 37px;
+  font-weight: 700;
+  color: #009688;
+  margin-top: 91px;
+  margin-bottom: 73px;
+  margin-left: 128px;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 101px;
+  margin-left: 128px;
+  margin-right: 137px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imagem-cinza {
+  background-color: #c4c4c4;
+  width: 319px;
+  height: 193px;
+  margin-bottom: 11px;
+}
+
+.conteudo-post {
+  width: 319px;
+  height: 114px;
+}
+
+.titulo-post {
+  font-size: 27px;
+  font-weight: 700;
+  color: #009688;
+}
+
+.texto-post {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.botao-posts {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  width: 289px;
+  height: 51px;
+  text-align: center;
+  margin-bottom: 53px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao-posts a {
+  color: #ff4081;
+  line-height: 47px;
+}
