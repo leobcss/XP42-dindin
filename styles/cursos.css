@@ -1,0 +1,104 @@
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.titulo-principal,
+.subtitulo {
+  margin-left: 82px;
+}
+
+.titulo-principal {
+  color: #ff4081;
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 81px;
+}
+
+.subtitulo {
+  color: #555555;
+  font-weight: 400;
+  margin-bottom: 95px;
+}
+
+.curso {
+  display: flex;
+  margin-right: 171px;
+  margin-left: 112px;
+  margin-bottom: 68px;
+}
+
+.curso-1 {
+  width: 1157px;
+  height: 381px;
+}
+.curso-2 {
+  width: 1157px;
+  height: 385px;
+}
+.curso-3 {
+  width: 1156px;
+  height: 498px;
+  margin-bottom: 202px;
+}
+
+.borda {
+  height: 5px;
+  width: 1244px;
+  margin-left: 82px;
+  margin-bottom: 95px;
+  background-color: #c4c4c4;
+}
+
+.imagem-1 {
+  width: 380px;
+  height: 381px;
+  background-image: url("../img/dindin-imagens/ilustra-poupando.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 51px;
+}
+.imagem-2 {
+  width: 380px;
+  height: 385px;
+  background-image: url("../img/dindin-imagens/ilustra-investimento.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 51px;
+}
+.imagem-3 {
+  width: 380px;
+  height: 498px;
+  background-image: url("../img/dindin-imagens/ilustra-independencia.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 51px;
+}
+
+.titulo-curso {
+  color: #ff4081;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+
+.descricao-curso {
+  font-size: 18px;
+  font-weight: 300;
+  width: 724px;
+  height: 105px;
+  margin-bottom: 53px;
+}
+
+.botao-comecar-curso {
+  width: 233px;
+  height: 51px;
+  border-radius: 62px;
+  background-color: #419488;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 13px 8px 13px 9px;
+  margin-bottom: 74px;
+  cursor: pointer;
+}

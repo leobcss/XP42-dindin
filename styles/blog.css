@@ -1,0 +1,89 @@
+/* SEÇÃO INTRO */
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.secao-intro {
+  display: flex;
+}
+
+.intro {
+  width: 512px;
+  height: 258px;
+  margin: 122px 74px 162px 239px;
+}
+.titulo-principal {
+  font-size: 47px;
+  font-weight: 700;
+  color: #009688;
+  margin-bottom: 40px;
+}
+
+.subtitulo {
+  font-weight: 300;
+  width: 461px;
+  height: 110px;
+}
+
+.imagem-principal {
+  width: 405px;
+  height: 405px;
+  background-image: url("../img/dindin-imagens/ilustra-blog.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 405px 405px;
+  margin-top: 48px;
+}
+
+/* SEÇÃO BLOG */
+
+.secao-blog {
+  background-color: #e5e5e5;
+  display: flex;
+}
+
+.posts {
+  width: 1156px;
+  height: 1433px;
+  margin: 109px auto 170px auto;
+}
+
+.post {
+  width: 518px;
+  height: 411px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  float: left;
+}
+
+.post-1,
+.post-3,
+.post-5 {
+  margin-right: 120px;
+}
+
+.imagem-post {
+  width: 518px;
+  height: 259px;
+  background-color: #c4c4c4;
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+
+.titulo-post {
+  color: #ff4081;
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 19px;
+  cursor: pointer;
+}
+
+.descricao-post {
+  font-size: 17px;
+  font-weight: 300;
+  /* display: flex;
+  align-items: center; */
+}

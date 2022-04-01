@@ -52,4 +52,5 @@ textarea {
   font-weight: 800;
   line-height: 32px;
   padding: 0;
+  cursor: pointer;
 }
